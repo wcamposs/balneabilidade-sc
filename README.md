@@ -26,13 +26,13 @@ npm install -g ionic@3.20.1
 ```
 - To run ionic and cordova without Sudo prefix, [this could be useful](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
 
-### Using Android Emulator
+#### Using Android Emulator
 
 - To use an Android emulator, you will need Android Studio, install it through [this tutorial](https://developer.android.com/studio/install)
 - To install ADB (Android Debug Bridge), follow [this tutorial](https://developer.android.com/studio/command-line/adb?hl=pt-br)
 - To create and manage AVDS (Android virtual devices) follow [this tutorial](https://developer.android.com/studio/run/managing-avds)
 
-### Using iOS Emulator
+#### Using iOS Emulator
 
 - To use an iOS emulator, you will need an MacOS. Install and configure through [this tutorial] (https://medium.com/@LondonAppBrewery/how-to-download-and-setup-xcode-10-for-ios-development-b63bed1865c)
 
@@ -56,13 +56,13 @@ npm install
 
 To run the project, you can choose to run on the web (browser), an Android emulator (or iOS) or on a physical device. Once at the root of the project via terminal, type the commands according to your need
 
-### Running with Web Browser
+#### Running with Web Browser
 
 ```
 ionic serve
 ``` 
 
-### Running in Emulator or physical Device:
+#### Running in Emulator or physical Device:
 
 To run the project on a device (whether physical or virtual), it will be necessary to have the device connected to the machine and that it is being detected via adb (in the case of an emulator, it must be initialized).
 
