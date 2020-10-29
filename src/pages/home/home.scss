@@ -1,0 +1,159 @@
+page-home {
+  .ion-content {
+    padding: 100% !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .fab {
+    background-color: rgba(0, 128, 255, 0.8);
+  }
+
+  // POP-IN (FLOAT ACTION BUTTON EFFECT) -------------
+  .pop-in {
+    animation: pop-in 0.65s;
+  }
+
+  @keyframes pop-in {
+    0% {
+      transform: scale(0);
+    }
+    45% {
+      transform: scale(0);
+    }
+    90% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .pop-out {
+    animation: pop-out 2.5s forwards;
+  }
+
+  @keyframes pop-out {
+    0% {
+      transform: scale(1);
+    }
+    15% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
+  .popup-beach {
+    h1 {
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      small {
+        font-weight: 500;
+      }
+    }
+
+    h2 {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 20px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 5px;
+    }
+
+    &-conditions {
+      &-row {
+        display: flex;
+        padding: 2px;
+      }
+
+      &-col {
+        padding-right: 2%;
+        &:first-child {
+          width: 48%;
+          font-weight: 600;
+          text-align: right;
+          &::after {
+            content: ":";
+          }
+        }
+
+        &:last-child {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .leaflet-popup {
+    &-content {
+      margin: 10px;
+    }
+
+    &-content-wrapper {
+      background-color: #eee;
+      box-shadow: 1px 1px 2px #999;
+      border: 3px solid #fff;
+      border-radius: 7px;
+    }
+    .weather {
+      .row {
+        display: flex;
+        .col-l,
+        .col-r {
+          font-size: 11px;
+          text-transform: uppercase;
+          text-align: left;
+        }
+
+        .col-l {
+          width: 60%;
+          font-weight: 500;
+        }
+
+        .col-r {
+          width: 40%;
+        }
+      }
+    }
+    .popup-beach-weather {
+      display: flex;
+
+      &-col {
+        text-align: center;
+        width: 40%;
+
+        &:first-child {
+          width: 30%;
+        }
+
+        &:last-child {
+          width: 30%;
+        }
+
+        h3 {
+          text-transform: uppercase;
+          font-size: 13px;
+        }
+
+        .temperature {
+          font-size: 25px;
+        }
+
+        .description {
+          text-transform: uppercase;
+          font-size: 11px;
+          font-weight: bold;
+          padding: 10px 0;
+        }
+
+        .wi {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}

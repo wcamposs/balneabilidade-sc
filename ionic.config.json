@@ -1,0 +1,8 @@
+{
+  "name": "app-balneabilidade",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "app_id": ""
+}

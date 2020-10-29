@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="label-24px" opacity="0.6">
+    <path id="Path_3" data-name="Path 3" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Path_4" data-name="Path 4" d="M17.63,5.84A1.994,1.994,0,0,0,16,5L5,5.01A2,2,0,0,0,3,7V17a2,2,0,0,0,2,1.99L16,19a1.994,1.994,0,0,0,1.63-.84l3.96-5.58a.991.991,0,0,0,0-1.16L17.63,5.84Z" fill="red"/>
+  </g>
+</svg>

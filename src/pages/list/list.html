@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Praias</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item-group *ngFor="let city of cities">
+    <ion-item-divider color="light">{{ city.name }}</ion-item-divider>
+    <button ion-item *ngFor="let measure of city.measurePoints">
+      <ion-avatar item-start>
+        <div *ngIf="measure.ANALISES[0].CONDICAO === 'IMPRÓPRIO'; else elsetag">
+          <img src="assets/svg/marker-improprio.svg" />
+        </div>
+        <ng-template #elsetag>
+          <div>
+            <img src="assets/svg/marker-proprio.svg" />
+          </div>
+        </ng-template>
+      </ion-avatar>
+      <h2>
+        {{ measure.BALNEARIO }} - {{ measure.PONTO_NOME }}
+      </h2>
+      <p>{{measure.LOCALIZACAO}}</p>
+      <div>
+        <small><i>Última medição: {{ measure.ANALISES[0].DATA }}</i></small>
+      </div>
+    </button>
+  </ion-item-group>
+</ion-content>
