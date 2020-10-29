@@ -24,7 +24,7 @@ Reminder: Make sure to install ionic version 3.20.1, replacing the ionic install
 ```
 npm install -g ionic@3.20.1
 ```
-- To run ionic and cordova without Sudo prefix, [this could be useful](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+- To run ionic and cordova without *sudo* command prefix, [this could be useful](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
 
 #### Using Android Emulator
 
