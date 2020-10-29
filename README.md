@@ -2,7 +2,7 @@
 
 ## Description
 
-The bathing map of Santa Catarina is an application developed in Ionic 3 and typescript aimed at the conclusion of the bachelor's degree in Information Science from the Federal University of Santa Catarina.
+The bathing map of Santa Catarina is an application developed in Ionic 3 and typescript aimed at the conclusion of the bachelor's degree in Information Science from the Universidade Federal de Santa Catarina.
 
 The purpose of the application is to make available to the population the bathing data of the beach points on the Santa Catarina coast. Using data from the Instituto do Meio Ambiente (IMA), users can view the beach spots, their bathing information, weather forecast and wind direction, as well as the list of beach spots.
 
