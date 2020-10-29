@@ -1,5 +1,7 @@
 # Balneabilidade SC
 
+![](https://i.imgur.com/WvvM1Qc.gifv)
+
 ## Description
 
 The bathing map of Santa Catarina is an application developed in Ionic 3 and typescript aimed at the conclusion of the bachelor's degree in Information Science from the Universidade Federal de Santa Catarina.
