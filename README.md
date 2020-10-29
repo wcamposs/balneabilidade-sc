@@ -1,4 +1,4 @@
-# Santa Catarina Balneability Map
+# Balneabilidade SC
 
 ## Description
 
