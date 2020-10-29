@@ -9,10 +9,10 @@ The purpose of the application is to make available to the population the bathin
 ## Requirements
 
 To run the application, you will need to have the following technologies installed on your machine:
-- NodeJs
-- NPM (Node Package Manager)
-- Ionic 3
-- Cordova
+- [NodeJs](https://nodejs.org/en/)
+- [NPM (Node Package Manager)](https://www.npmjs.com/)
+- [Ionic 3](https://ionicframework.com/docs)
+- [Cordova](https://cordova.apache.org/)
 - ADB (Android Debug Bridge)
 - Android (or IOS) emulator or a physical device)
 
