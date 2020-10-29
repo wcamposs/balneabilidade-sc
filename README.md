@@ -1,6 +1,6 @@
 # Balneabilidade SC
 
-![](https://imgur.com/WvvM1Qc)
+![](https://media.giphy.com/media/spU79MwHnEjVzWxHPy/giphy.gif)
 
 ## Description
 
