@@ -34,7 +34,7 @@ npm install -g ionic@3.20.1
 
 #### Using iOS Emulator
 
-- To use an iOS emulator, you will need an MacOS. Install and configure through [this tutorial] (https://medium.com/@LondonAppBrewery/how-to-download-and-setup-xcode-10-for-ios-development-b63bed1865c)
+- To use an iOS emulator, you will need an MacOS. Install and configure through [this tutorial](https://medium.com/@LondonAppBrewery/how-to-download-and-setup-xcode-10-for-ios-development-b63bed1865c)
 
 ## Cloning the repository
 
