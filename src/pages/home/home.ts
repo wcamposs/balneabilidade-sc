@@ -119,10 +119,14 @@ export class HomePage {
       if (beach.ANALISES[0].CONDICAO === "PRÓPRIO") {
         icon = L.icon({
           iconUrl: "../../assets/img/blue-flag.png",
+          iconAnchor: [0, 23],
+          popupAnchor: [5, -20]
         });
       } else if (beach.ANALISES[0].CONDICAO === "IMPRÓPRIO") {
         icon = L.icon({
           iconUrl: "../../assets/img/red-flag.png",
+          iconAnchor: [0, 23],
+          popupAnchor: [5, -20]
         });
       }
 
