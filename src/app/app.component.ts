@@ -24,8 +24,8 @@ export class MyApp {
     this.initializeApp();
 
     this.pages = [
-      { title: "Mapa", icon: "md-map", component: HomePage },
-      { title: "Praias", icon: "ios-list-outline", component: ListPage },
+      { title: "Mapa de Balneabilidade", icon: "md-map", component: HomePage },
+      { title: "Pontos de Balneabilidade", icon: "ios-list-outline", component: ListPage },
     ];
   }
 
