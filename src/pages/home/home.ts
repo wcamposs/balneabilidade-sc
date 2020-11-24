@@ -98,7 +98,7 @@ export class HomePage {
 
     L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attributions: "www.tphangout.com",
-      minZoom: 3,
+      minZoom: 7,
       maxZoom: 18,
     }).addTo(this.map);
 
